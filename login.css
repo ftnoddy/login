@@ -1,0 +1,135 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url('https://images.pexels.com/photos/2397414/pexels-photo-2397414.jpeg?cs=srgb&dl=pexels-jeremy-bishop-2397414.jpg&fm=jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: sans-serif;
+}
+nav{
+	width: 100%;height: 15vh;
+	background:rgba(0, 0, 0, 0.1);
+	color: white;display: flex;justify-content: space-between;
+     align-items: center;text-transform: uppercase;
+}
+nav .logo{
+	width: 25%;text-align: center;
+	color: chocolate;
+}
+nav .menu{
+	width: 40%;
+	display: flex;justify-content: space-around;
+
+}
+nav .menu a{
+	width: 25%;
+	text-decoration: none;color: white;
+	font-weight: bold;
+
+}
+nav .menu a:hover{
+         color: chocolate;
+}
+.sm{
+	margin: 30px 0;
+}
+.sm a{
+	display: inline-flex;
+	width: 50px;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	font-size: 25px;
+	transition: 0.5s;
+	border-radius: 50%;
+	text-decoration: none;
+	padding: 15px;
+}
+.sm a:hover{
+	background: #00FF00;
+	color: white;}
+
+.box{
+	width: 300px;
+	padding: 50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+	text-align: center;
+}
+.box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.box input[type="text"],.box input[type=password]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+
+}
+.box input[type="text"]:focus,.box input[type=password]:focus{
+	width: 280px;
+	border-color: #2ecc71;
+
+}
+.box input[type="submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+
+
+}
+.box input[type="submit"]:hover{
+	background:#2ecc71 ;
+}
+
+.b1{
+	display: block;
+	width: 260px;
+	padding: 10px 0;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin: auto;
+	transition: 0.4s all;
+}
+.b2{
+	position: absolute;
+	bottom: 80px;
+	left: 50px;
+	transform: translate(-50px);
+	width: 260px;
+	padding: 10px 0;
+	text-decoration: none;
+	text-align: center;
+	transition: 0.4s all;
+	color: #3498db;
+
+}
+a:hover{
+	border: #00000040;
+}
